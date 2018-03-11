@@ -6,6 +6,8 @@ import (
 	"github.com/google/go-github/github"
 )
 
+//go:generate moq -out spf_github_repo_fetcher_mock.go . SPFGithubRepoFetcher
+
 // SPFGithubRepoFetcher is a single method interface for fetching repos of shopify.
 type SPFGithubRepoFetcher interface {
 	Fetch() ([]*github.Repository, error)

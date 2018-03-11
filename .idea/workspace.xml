@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f99f0fe-86e3-4a1c-8e67-63ba6a203dba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/handlers/handler.go" afterPath="$PROJECT_DIR$/handlers/handler.go" />
-      <change beforePath="$PROJECT_DIR$/shopify_repos" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/api/shopify.go" afterPath="$PROJECT_DIR$/api/shopify.go" />
+      <change beforePath="$PROJECT_DIR$/handlers/handler_test.go" afterPath="$PROJECT_DIR$/handlers/handler_test.go" />
       <change beforePath="$PROJECT_DIR$/store/shopify_repos.go" afterPath="$PROJECT_DIR$/store/shopify_repos.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="handler.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handler.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handlers/handler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+            <state relative-caret-position="69">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#18#196#0" expanded="true" />
               </folding>
@@ -31,8 +31,8 @@
       <file leaf-file-name="shopify_repos.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/shopify_repos.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#15#80#0" expanded="true" />
               </folding>
@@ -40,79 +40,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopify_repos_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/shopify_repos_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
-              <folding>
-                <element signature="e#15#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopify.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/shopify.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_funcs.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/template_funcs.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#18#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_funcs_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers/template_funcs_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="92" column="20" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-              <folding>
-                <element signature="e#18#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/time/time.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handler_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="handler_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handlers/handler_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1700">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding>
+                <element signature="e#18#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shopify/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
+      <file leaf-file-name="recorder.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/http/httptest/recorder.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="351">
+              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ioutil.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/io/ioutil/ioutil.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/path/filepath/path.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="239" column="5" lean-forward="false" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/os/file.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="225" column="5" lean-forward="false" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repo_mock.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/repo_mock.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -121,8 +115,8 @@
       <file leaf-file-name="repos.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../google/go-github/github/repos.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="154">
+              <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
               <folding>
                 <element signature="e#186#242#0" expanded="true" />
               </folding>
@@ -162,9 +156,10 @@
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/handlers/template_funcs_test.go" />
         <option value="$PROJECT_DIR$/store/shopify_repos_test.go" />
-        <option value="$PROJECT_DIR$/api/shopify.go" />
         <option value="$PROJECT_DIR$/handlers/handler.go" />
+        <option value="$PROJECT_DIR$/api/shopify.go" />
         <option value="$PROJECT_DIR$/store/shopify_repos.go" />
+        <option value="$PROJECT_DIR$/handlers/handler_test.go" />
       </list>
     </option>
   </component>
@@ -219,6 +214,17 @@
               <item name="shopify_repos" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shopify_repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopify_repos" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopify_repos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopify_repos" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shopify" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,15 +251,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_repoStore_IsExpired_False in shopify_repos_test.go">
-    <configuration name="TestNewRepoStore in shopify_repos_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.TestShopify_index in handler_test.go">
+    <configuration name="TestShopify_index in handler_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="shopify_repos" />
-      <working_directory value="$PROJECT_DIR$/store" />
+      <working_directory value="$PROJECT_DIR$/handlers" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jianhan/shopify_repos/store" />
-      <pattern value="^TestNewRepoStore$" />
+      <package value="github.com/jianhan/shopify_repos/handlers" />
+      <pattern value="^TestShopify_index$" />
     </configuration>
     <configuration name="Test_repoStore_GetRepos in shopify_repos_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="shopify_repos" />
@@ -292,19 +298,19 @@
       <pattern value="^Test_repoStore_SetRepos$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestNewRepoStore in shopify_repos_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_repoStore_SetRepos in shopify_repos_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.Test_repoStore_GetRepos in shopify_repos_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired in shopify_repos_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired_False in shopify_repos_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.Test_repoStore_SetRepos in shopify_repos_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_repoStore_GetRepos in shopify_repos_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired in shopify_repos_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired_False in shopify_repos_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestShopify_index in handler_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired_False in shopify_repos_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired in shopify_repos_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.Test_repoStore_GetRepos in shopify_repos_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.Test_repoStore_SetRepos in shopify_repos_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestNewRepoStore in shopify_repos_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestShopify_index in handler_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired_False in shopify_repos_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.Test_repoStore_IsExpired in shopify_repos_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.Test_repoStore_GetRepos in shopify_repos_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_repoStore_SetRepos in shopify_repos_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -312,42 +318,42 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_repoStore_GetRepos_in_shopify_repos_test_go - 2018.03.11 at 13h 26m 41s.xml">
-      <configuration name="Test_repoStore_GetRepos in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 04m 40s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_False_in_shopify_repos_test_go - 2018.03.11 at 13h 30m 27s.xml">
-      <configuration name="Test_repoStore_IsExpired_False in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 04m 46s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 28m 23s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 07m 26s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 28m 30s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 07m 32s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 28m 56s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 09m 53s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 29m 08s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 10m 22s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 29m 27s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 10m 51s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_IsExpired_in_shopify_repos_test_go - 2018.03.11 at 13h 29m 45s.xml">
-      <configuration name="Test_repoStore_IsExpired in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 11m 38s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_SetRepos_in_shopify_repos_test_go - 2018.03.11 at 13h 21m 44s.xml">
-      <configuration name="Test_repoStore_SetRepos in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 11m 44s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_repoStore_SetRepos_in_shopify_repos_test_go - 2018.03.11 at 13h 22m 23s.xml">
-      <configuration name="Test_repoStore_SetRepos in shopify_repos_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestShopify_index_in_handler_test_go - 2018.03.11 at 15h 12m 51s.xml">
+      <configuration name="TestShopify_index in handler_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="47" width="1533" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16568819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20808871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -374,7 +380,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -443,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shopify/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../google/go-github/github/github.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -462,7 +460,7 @@
     <entry file="file://$PROJECT_DIR$/handlers/template_funcs.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#18#99#0" expanded="true" />
           </folding>
@@ -477,78 +475,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/handlers/template_funcs_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="92" column="20" lean-forward="false" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        <state relative-caret-position="156">
+          <caret line="91" column="13" lean-forward="false" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding>
             <element signature="e#18#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../google/go-github/github/repos.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#186#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/shopify_repos_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="e#15#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/handler_test.go">
+    <entry file="file://$PROJECT_DIR$/api/spf_github_repo_fetcher_mock.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#78#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/shopify.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#13#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store/repo_mock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#18#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/store/shopify_repos.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#15#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handlers/handler.go">
+    <entry file="file:///usr/local/go/src/os/file.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+        <state relative-caret-position="162">
+          <caret line="225" column="5" lean-forward="false" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/path/filepath/path.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="239" column="5" lean-forward="false" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/io/ioutil/ioutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/httptest/recorder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../google/go-github/github/repos.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
           <folding>
-            <element signature="e#18#196#0" expanded="true" />
+            <element signature="e#186#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shopify/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers/handler_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#280#0" expanded="true" />
           </folding>
         </state>
       </provider>

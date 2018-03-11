@@ -7,6 +7,8 @@ import (
 	"github.com/google/go-github/github"
 )
 
+//go:generate moq -out repo_mock.go . Repo
+
 // Repo defines all exported functions.
 type Repo interface {
 	SetRepos(items []*github.Repository)
