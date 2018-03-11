@@ -28,10 +28,10 @@ func (s *Shopify) index(w http.ResponseWriter, r *http.Request) {
 			panic(err)
 		}
 		s.repoStore.SetRepos(repos)
-		s.log.WithField("repos_count", len(repos)).Info("Finish fetching repos from in memory cache")
+		s.log.WithField("repos_count", len(repos)).Info("Finish fetching repos from github API")
 	}
 	repos := s.repoStore.GetRepos()
-	s.log.WithField("repos_count", len(repos)).Info("Finish fetching repos from GITHUB API")
+	s.log.WithField("repos_count", len(repos)).Info("Finish fetching repos from in memory cache")
 	t, err := template.New("index.html").Funcs(template.FuncMap{
 		"readableTime":    UTCToLocal,
 		"readableBoolean": ReadableBoolean,
