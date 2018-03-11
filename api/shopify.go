@@ -13,17 +13,26 @@ type SPFGithubRepoFetcher interface {
 
 // Shopify implements SPFGithubRepoFetcher.
 type Shopify struct {
-	Org    string
-	Client *github.Client
-	Opts   *github.RepositoryListByOrgOptions
+	org    string
+	client *github.Client
+	opts   *github.RepositoryListByOrgOptions
 }
 
 // Fetch gets all repos from shopify via github developer API.
 func (s *Shopify) Fetch() ([]*github.Repository, error) {
-	// Do not need pagination, etc.. therefore, omit response
-	repos, _, err := s.Client.Repositories.ListByOrg(context.Background(), s.Org, s.Opts)
+	// Do not need pagination, etc.. therefore, omit response, might need later on.
+	repos, _, err := s.client.Repositories.ListByOrg(context.Background(), s.org, s.opts)
 	if err != nil {
 		return nil, err
 	}
 	return repos, err
+}
+
+// NewShopify receives parameters for creating a api.Shopify and return an interface.
+func NewShopify(org string, client *github.Client, opts *github.RepositoryListByOrgOptions) SPFGithubRepoFetcher {
+	return &Shopify{
+		org:    org,
+		client: client,
+		opts:   opts,
+	}
 }
