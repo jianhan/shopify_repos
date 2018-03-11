@@ -23,12 +23,21 @@ func (s *Shopify) index(w http.ResponseWriter, r *http.Request) {
 		s.log.Fatal(err)
 		panic(err)
 	}
-	t, err := template.ParseFiles("views/shopify/index.html")
+	//t, err := template.ParseFiles("views/shopify/index.html")
+	//t, err := template.ParseFiles("views/shopify/index.html")
+	t, err := template.New("index.html").Funcs(template.FuncMap{
+		"readableTime":    UTCToLocal,
+		"readableBoolean": ReadableBoolean,
+	}).ParseFiles("views/shopify/index.html")
 	if err != nil {
 		s.log.Fatal(err)
 		panic(err)
 	}
 	err = t.Execute(w, repos)
+	if err != nil {
+		s.log.Fatal(err)
+		panic(err)
+	}
 }
 
 // Serve is the entry point of start up for HTTP server, which will be called by main func.
