@@ -23,9 +23,10 @@ var (
 func NewRepoStore() Repo {
 	once.Do(func() {
 		r = &repoStore{
-			items:         []*github.Repository{},
-			lastUpdated:   time.Now(),
-			cacheDuration: time.Second * 2,
+			items:       []*github.Repository{},
+			lastUpdated: time.Now(),
+			// TODO: cache duration should be in env
+			cacheDuration: time.Second * 60,
 		}
 	})
 	return r
