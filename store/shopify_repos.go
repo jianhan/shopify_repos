@@ -1,6 +1,8 @@
 package store
 
 import (
+	"os"
+	"strconv"
 	"sync"
 	"time"
 
@@ -23,10 +25,11 @@ var (
 
 // NewRepoStore will generate a new instance of repo store followed singleton pattern.
 func NewRepoStore() Repo {
+	duration, _ := strconv.ParseInt(os.Getenv("CACHE_DURATION"), 10, 64)
 	once.Do(func() {
 		r = &repoStore{
 			items:         []*github.Repository{},
-			cacheDuration: time.Second * 60,
+			cacheDuration: time.Duration(duration) * time.Second,
 		}
 	})
 	return r

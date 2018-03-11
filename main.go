@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 
+	"os"
+
 	"github.com/google/go-github/github"
 	"github.com/jianhan/shopify_repos/api"
 	"github.com/jianhan/shopify_repos/handlers"
@@ -12,7 +14,7 @@ import (
 
 func main() {
 	spfFetcher, repoStore := bootstrap()
-	handlers.Serve("127.0.0.1:8080", spfFetcher, repoStore)
+	handlers.Serve(os.Getenv("ADDRESS_PORT"), spfFetcher, repoStore)
 }
 
 // bootstrap initializes all dependencies we needed in main func.
@@ -20,5 +22,5 @@ func bootstrap() (api.SPFGithubRepoFetcher, store.Repo) {
 	ctx := context.Background()
 	tc := oauth2.NewClient(ctx, nil)
 	client := github.NewClient(tc)
-	return api.NewShopify("Shopify", client, nil), store.NewRepoStore()
+	return api.NewShopify(os.Getenv("REPO_USER"), client, nil), store.NewRepoStore()
 }
