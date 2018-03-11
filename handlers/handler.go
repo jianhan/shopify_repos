@@ -7,7 +7,6 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/jianhan/shopify_repos/api"
 	"github.com/sirupsen/logrus"
-	"github.com/y0ssar1an/q"
 )
 
 // Shopify is a struct which have multiply handlers for different incomming requests.
@@ -20,7 +19,6 @@ type Shopify struct {
 // index is the main handler func which will fetch and display repos on HTML page.
 func (s *Shopify) index(w http.ResponseWriter, r *http.Request) {
 	repos, err := s.shopifyAPI.Fetch()
-	q.Q(repos)
 	if err != nil {
 		s.log.Fatal(err)
 		panic(err)
