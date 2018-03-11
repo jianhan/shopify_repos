@@ -20,6 +20,5 @@ func bootstrap() (api.SPFGithubRepoFetcher, store.Repo) {
 	ctx := context.Background()
 	tc := oauth2.NewClient(ctx, nil)
 	client := github.NewClient(tc)
-	// TODO: options is nil now, may needed to be changes later if pagination needed to be implemented.
 	return api.NewShopify("Shopify", client, nil), store.NewRepoStore()
 }
