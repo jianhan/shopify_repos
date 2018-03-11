@@ -14,7 +14,7 @@ func main() {
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
 		// TODO: following token needed to be in ENV
-		&oauth2.Token{AccessToken: "f4d3f4021a69bd58d30fc0cd4b31698233a59ba3"},
+		&oauth2.Token{AccessToken: "48e65f4e0070a283ed925f2b62501e7a75fc8966"},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
