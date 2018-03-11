@@ -15,13 +15,13 @@ type SPFGithubRepoFetcher interface {
 type Shopify struct {
 	org    string
 	client *github.Client
-	opts   *github.RepositoryListByOrgOptions
+	opt    *github.RepositoryListByOrgOptions
 }
 
 // Fetch gets all repos from shopify via github developer API.
 func (s *Shopify) Fetch() ([]*github.Repository, error) {
 	// Do not need pagination, etc.. therefore, omit response, might need later on.
-	repos, _, err := s.client.Repositories.ListByOrg(context.Background(), s.org, s.opts)
+	repos, _, err := s.client.Repositories.ListByOrg(context.Background(), s.org, s.opt)
 	if err != nil {
 		return nil, err
 	}
@@ -29,10 +29,10 @@ func (s *Shopify) Fetch() ([]*github.Repository, error) {
 }
 
 // NewShopify receives parameters for creating a api.Shopify and return an interface.
-func NewShopify(org string, client *github.Client, opts *github.RepositoryListByOrgOptions) SPFGithubRepoFetcher {
+func NewShopify(org string, client *github.Client, opt *github.RepositoryListByOrgOptions) SPFGithubRepoFetcher {
 	return &Shopify{
 		org:    org,
 		client: client,
-		opts:   opts,
+		opt:    opt,
 	}
 }
