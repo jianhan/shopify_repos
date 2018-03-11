@@ -17,6 +17,7 @@
             <th>Fork</th>
             <th>Stargazers</th>
             <th>Updated</th>
+            <th>URL</th>
             <th>Homepage</th>
         </tr>
         {{range .}}
@@ -27,7 +28,8 @@
             </td>
             <td>{{ .StargazersCount }}</td>
             <td>{{ .UpdatedAt | readableTime }}</td>
-            <td><a target="_blank" href="{{ .Homepage }}">URL</a></td>
+            <td><a target="_blank" href="{{ .HTMLURL }}">URL</a></td>
+            <td><a target="_blank" href="{{ .Homepage }}">Home Page</a></td>
         </tr>
         {{end}}
     </table>
