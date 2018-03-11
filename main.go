@@ -10,12 +10,15 @@ import (
 )
 
 func main() {
-	// Get fetcher
+	spfFetcher := bootstrap()
+	handlers.Serve("127.0.0.1:8080", spfFetcher)
+}
+
+// bootstrap initializes all dependencies we needed in main func.
+func bootstrap() api.SPFGithubRepoFetcher {
 	ctx := context.Background()
 	tc := oauth2.NewClient(ctx, nil)
 	client := github.NewClient(tc)
 	// TODO: options is nil now, may needed to be changes later if pagination needed to be implemented.
-	spfFetcher := api.NewShopify("Shopify", client, nil)
-	// TODO: address and port should be in ENV
-	handlers.Serve("127.0.0.1:8080", spfFetcher)
+	return api.NewShopify("Shopify", client, nil)
 }
