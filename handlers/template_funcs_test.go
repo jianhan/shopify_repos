@@ -43,21 +43,21 @@ func TestUTCToLocal(t *testing.T) {
 			args: args{
 				t: github.Timestamp{time.Now().Add(-time.Minute * 6)},
 			},
-			want: "5 minutes ago",
+			want: "6 minutes ago",
 		},
 		{
 			name: "successful case -hr",
 			args: args{
 				t: github.Timestamp{time.Now().Add(-time.Hour * 6)},
 			},
-			want: "5 hours ago",
+			want: "6 hours ago",
 		},
 		{
 			name: "successful case -d",
 			args: args{
 				t: github.Timestamp{time.Now().Add(-time.Hour * 24 * 6)},
 			},
-			want: "5 days ago",
+			want: "6 days ago",
 		},
 	}
 	for _, tt := range tests {

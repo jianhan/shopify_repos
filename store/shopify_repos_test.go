@@ -12,7 +12,6 @@ import (
 func TestNewRepoStore(t *testing.T) {
 	r := &repoStore{
 		items:         []*github.Repository{},
-		lastUpdated:   time.Now(),
 		cacheDuration: time.Second * 60,
 	}
 	tests := []struct {
